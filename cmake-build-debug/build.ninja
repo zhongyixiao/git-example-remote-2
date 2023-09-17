@@ -139,12 +139,78 @@ build judge.exe: C_EXECUTABLE_LINKER__judge_Debug CMakeFiles/judge.dir/judge.c.o
   TARGET_IMPLIB = libjudge.dll.a
   TARGET_PDB = judge.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target self-homework-1
+
+
+#############################################
+# Order-only phony target for self-homework-1
+
+build cmake_object_order_depends_target_self-homework-1: phony || CMakeFiles/self-homework-1.dir
+
+build CMakeFiles/self-homework-1.dir/self-homework-1.c.obj: C_COMPILER__self-homework-1_unscanned_Debug D$:/code/git-example-remote-2/self-homework-1.c || cmake_object_order_depends_target_self-homework-1
+  DEP_FILE = CMakeFiles\self-homework-1.dir\self-homework-1.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\self-homework-1.dir
+  OBJECT_FILE_DIR = CMakeFiles\self-homework-1.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target self-homework-1
+
+
+#############################################
+# Link the executable self-homework-1.exe
+
+build self-homework-1.exe: C_EXECUTABLE_LINKER__self-homework-1_Debug CMakeFiles/self-homework-1.dir/self-homework-1.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\self-homework-1.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = self-homework-1.exe
+  TARGET_IMPLIB = libself-homework-1.dll.a
+  TARGET_PDB = self-homework-1.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target self-homework-2
+
+
+#############################################
+# Order-only phony target for self-homework-2
+
+build cmake_object_order_depends_target_self-homework-2: phony || CMakeFiles/self-homework-2.dir
+
+build CMakeFiles/self-homework-2.dir/self-homework-2.c.obj: C_COMPILER__self-homework-2_unscanned_Debug D$:/code/git-example-remote-2/self-homework-2.c || cmake_object_order_depends_target_self-homework-2
+  DEP_FILE = CMakeFiles\self-homework-2.dir\self-homework-2.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\self-homework-2.dir
+  OBJECT_FILE_DIR = CMakeFiles\self-homework-2.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target self-homework-2
+
+
+#############################################
+# Link the executable self-homework-2.exe
+
+build self-homework-2.exe: C_EXECUTABLE_LINKER__self-homework-2_Debug CMakeFiles/self-homework-2.dir/self-homework-2.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\self-homework-2.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = self-homework-2.exe
+  TARGET_IMPLIB = libself-homework-2.dll.a
+  TARGET_PDB = self-homework-2.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
 
 build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D D:\code\git-example-remote-2\cmake-build-debug && E:\toolbox\apps\CLion\ch-0\232.9559.58\bin\cmake\win\x64\bin\cmake.exe -E echo "No interactive CMake dialog available.""
+  COMMAND = cmd.exe /C "cd /D D:\code\git-example-remote-2\cmake-build-debug && E:\toolbox\apps\CLion\ch-0\232.9921.42\bin\cmake\win\x64\bin\cmake.exe -E echo "No interactive CMake dialog available.""
   DESC = No interactive CMake dialog available...
   restat = 1
 
@@ -155,7 +221,7 @@ build edit_cache: phony CMakeFiles/edit_cache.util
 # Utility command for rebuild_cache
 
 build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D D:\code\git-example-remote-2\cmake-build-debug && E:\toolbox\apps\CLion\ch-0\232.9559.58\bin\cmake\win\x64\bin\cmake.exe --regenerate-during-build -SD:\code\git-example-remote-2 -BD:\code\git-example-remote-2\cmake-build-debug"
+  COMMAND = cmd.exe /C "cd /D D:\code\git-example-remote-2\cmake-build-debug && E:\toolbox\apps\CLion\ch-0\232.9921.42\bin\cmake\win\x64\bin\cmake.exe --regenerate-during-build -SD:\code\git-example-remote-2 -BD:\code\git-example-remote-2\cmake-build-debug"
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -171,6 +237,10 @@ build hello: phony hello.exe
 
 build judge: phony judge.exe
 
+build self-homework-1: phony self-homework-1.exe
+
+build self-homework-2: phony self-homework-2.exe
+
 # =============================================================================
 # Folder targets.
 
@@ -179,7 +249,7 @@ build judge: phony judge.exe
 #############################################
 # Folder: D:/code/git-example-remote-2/cmake-build-debug
 
-build all: phony hello.exe guass.exe judge.exe
+build all: phony hello.exe guass.exe judge.exe self-homework-1.exe self-homework-2.exe
 
 # =============================================================================
 # Built-in targets
@@ -188,14 +258,14 @@ build all: phony hello.exe guass.exe judge.exe
 #############################################
 # Re-run CMake if any of its inputs changed.
 
-build build.ninja: RERUN_CMAKE | CMakeCache.txt CMakeFiles/3.26.4/CMakeCCompiler.cmake CMakeFiles/3.26.4/CMakeRCCompiler.cmake CMakeFiles/3.26.4/CMakeSystem.cmake D$:/code/git-example-remote-2/CMakeLists.txt E$:/toolbox/apps/CLion/ch-0/232.9559.58/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeCInformation.cmake E$:/toolbox/apps/CLion/ch-0/232.9559.58/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeCommonLanguageInclude.cmake E$:/toolbox/apps/CLion/ch-0/232.9559.58/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeGenericSystem.cmake E$:/toolbox/apps/CLion/ch-0/232.9559.58/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeInitializeConfigs.cmake E$:/toolbox/apps/CLion/ch-0/232.9559.58/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeLanguageInformation.cmake E$:/toolbox/apps/CLion/ch-0/232.9559.58/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeRCInformation.cmake E$:/toolbox/apps/CLion/ch-0/232.9559.58/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeSystemSpecificInformation.cmake E$:/toolbox/apps/CLion/ch-0/232.9559.58/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeSystemSpecificInitialize.cmake E$:/toolbox/apps/CLion/ch-0/232.9559.58/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/CMakeCommonCompilerMacros.cmake E$:/toolbox/apps/CLion/ch-0/232.9559.58/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/GNU-C.cmake E$:/toolbox/apps/CLion/ch-0/232.9559.58/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/GNU.cmake E$:/toolbox/apps/CLion/ch-0/232.9559.58/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/Windows-GNU-C-ABI.cmake E$:/toolbox/apps/CLion/ch-0/232.9559.58/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/Windows-GNU-C.cmake E$:/toolbox/apps/CLion/ch-0/232.9559.58/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/Windows-GNU.cmake E$:/toolbox/apps/CLion/ch-0/232.9559.58/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/Windows-windres.cmake E$:/toolbox/apps/CLion/ch-0/232.9559.58/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/Windows.cmake E$:/toolbox/apps/CLion/ch-0/232.9559.58/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/WindowsPaths.cmake
+build build.ninja: RERUN_CMAKE | CMakeCache.txt CMakeFiles/3.26.4/CMakeCCompiler.cmake CMakeFiles/3.26.4/CMakeRCCompiler.cmake CMakeFiles/3.26.4/CMakeSystem.cmake D$:/code/git-example-remote-2/CMakeLists.txt E$:/toolbox/apps/CLion/ch-0/232.9921.42/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeCInformation.cmake E$:/toolbox/apps/CLion/ch-0/232.9921.42/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeCommonLanguageInclude.cmake E$:/toolbox/apps/CLion/ch-0/232.9921.42/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeGenericSystem.cmake E$:/toolbox/apps/CLion/ch-0/232.9921.42/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeInitializeConfigs.cmake E$:/toolbox/apps/CLion/ch-0/232.9921.42/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeLanguageInformation.cmake E$:/toolbox/apps/CLion/ch-0/232.9921.42/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeRCInformation.cmake E$:/toolbox/apps/CLion/ch-0/232.9921.42/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeSystemSpecificInformation.cmake E$:/toolbox/apps/CLion/ch-0/232.9921.42/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeSystemSpecificInitialize.cmake E$:/toolbox/apps/CLion/ch-0/232.9921.42/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/CMakeCommonCompilerMacros.cmake E$:/toolbox/apps/CLion/ch-0/232.9921.42/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/GNU-C.cmake E$:/toolbox/apps/CLion/ch-0/232.9921.42/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/GNU.cmake E$:/toolbox/apps/CLion/ch-0/232.9921.42/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/Windows-GNU-C-ABI.cmake E$:/toolbox/apps/CLion/ch-0/232.9921.42/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/Windows-GNU-C.cmake E$:/toolbox/apps/CLion/ch-0/232.9921.42/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/Windows-GNU.cmake E$:/toolbox/apps/CLion/ch-0/232.9921.42/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/Windows-windres.cmake E$:/toolbox/apps/CLion/ch-0/232.9921.42/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/Windows.cmake E$:/toolbox/apps/CLion/ch-0/232.9921.42/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/WindowsPaths.cmake
   pool = console
 
 
 #############################################
 # A missing CMake input file is not an error.
 
-build CMakeCache.txt CMakeFiles/3.26.4/CMakeCCompiler.cmake CMakeFiles/3.26.4/CMakeRCCompiler.cmake CMakeFiles/3.26.4/CMakeSystem.cmake D$:/code/git-example-remote-2/CMakeLists.txt E$:/toolbox/apps/CLion/ch-0/232.9559.58/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeCInformation.cmake E$:/toolbox/apps/CLion/ch-0/232.9559.58/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeCommonLanguageInclude.cmake E$:/toolbox/apps/CLion/ch-0/232.9559.58/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeGenericSystem.cmake E$:/toolbox/apps/CLion/ch-0/232.9559.58/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeInitializeConfigs.cmake E$:/toolbox/apps/CLion/ch-0/232.9559.58/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeLanguageInformation.cmake E$:/toolbox/apps/CLion/ch-0/232.9559.58/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeRCInformation.cmake E$:/toolbox/apps/CLion/ch-0/232.9559.58/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeSystemSpecificInformation.cmake E$:/toolbox/apps/CLion/ch-0/232.9559.58/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeSystemSpecificInitialize.cmake E$:/toolbox/apps/CLion/ch-0/232.9559.58/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/CMakeCommonCompilerMacros.cmake E$:/toolbox/apps/CLion/ch-0/232.9559.58/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/GNU-C.cmake E$:/toolbox/apps/CLion/ch-0/232.9559.58/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/GNU.cmake E$:/toolbox/apps/CLion/ch-0/232.9559.58/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/Windows-GNU-C-ABI.cmake E$:/toolbox/apps/CLion/ch-0/232.9559.58/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/Windows-GNU-C.cmake E$:/toolbox/apps/CLion/ch-0/232.9559.58/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/Windows-GNU.cmake E$:/toolbox/apps/CLion/ch-0/232.9559.58/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/Windows-windres.cmake E$:/toolbox/apps/CLion/ch-0/232.9559.58/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/Windows.cmake E$:/toolbox/apps/CLion/ch-0/232.9559.58/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/WindowsPaths.cmake: phony
+build CMakeCache.txt CMakeFiles/3.26.4/CMakeCCompiler.cmake CMakeFiles/3.26.4/CMakeRCCompiler.cmake CMakeFiles/3.26.4/CMakeSystem.cmake D$:/code/git-example-remote-2/CMakeLists.txt E$:/toolbox/apps/CLion/ch-0/232.9921.42/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeCInformation.cmake E$:/toolbox/apps/CLion/ch-0/232.9921.42/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeCommonLanguageInclude.cmake E$:/toolbox/apps/CLion/ch-0/232.9921.42/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeGenericSystem.cmake E$:/toolbox/apps/CLion/ch-0/232.9921.42/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeInitializeConfigs.cmake E$:/toolbox/apps/CLion/ch-0/232.9921.42/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeLanguageInformation.cmake E$:/toolbox/apps/CLion/ch-0/232.9921.42/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeRCInformation.cmake E$:/toolbox/apps/CLion/ch-0/232.9921.42/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeSystemSpecificInformation.cmake E$:/toolbox/apps/CLion/ch-0/232.9921.42/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeSystemSpecificInitialize.cmake E$:/toolbox/apps/CLion/ch-0/232.9921.42/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/CMakeCommonCompilerMacros.cmake E$:/toolbox/apps/CLion/ch-0/232.9921.42/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/GNU-C.cmake E$:/toolbox/apps/CLion/ch-0/232.9921.42/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/GNU.cmake E$:/toolbox/apps/CLion/ch-0/232.9921.42/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/Windows-GNU-C-ABI.cmake E$:/toolbox/apps/CLion/ch-0/232.9921.42/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/Windows-GNU-C.cmake E$:/toolbox/apps/CLion/ch-0/232.9921.42/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/Windows-GNU.cmake E$:/toolbox/apps/CLion/ch-0/232.9921.42/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/Windows-windres.cmake E$:/toolbox/apps/CLion/ch-0/232.9921.42/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/Windows.cmake E$:/toolbox/apps/CLion/ch-0/232.9921.42/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/WindowsPaths.cmake: phony
 
 
 #############################################

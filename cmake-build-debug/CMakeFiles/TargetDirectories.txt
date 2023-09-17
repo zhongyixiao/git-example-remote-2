@@ -1,5 +1,7 @@
 D:/code/git-example-remote-2/cmake-build-debug/CMakeFiles/hello.dir
 D:/code/git-example-remote-2/cmake-build-debug/CMakeFiles/guass.dir
 D:/code/git-example-remote-2/cmake-build-debug/CMakeFiles/judge.dir
+D:/code/git-example-remote-2/cmake-build-debug/CMakeFiles/self-homework-1.dir
+D:/code/git-example-remote-2/cmake-build-debug/CMakeFiles/self-homework-2.dir
 D:/code/git-example-remote-2/cmake-build-debug/CMakeFiles/edit_cache.dir
 D:/code/git-example-remote-2/cmake-build-debug/CMakeFiles/rebuild_cache.dir

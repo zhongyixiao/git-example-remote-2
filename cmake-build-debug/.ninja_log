@@ -1,8 +1,16 @@
 # ninja log v5
 39	92	7164847832956211	hello.exe	bef3fa44d9f61bcb
 1	39	7164847832449913	CMakeFiles/hello.dir/hello.c.obj	961dda8d438ade11
-1	465	7166220663540397	build.ninja	ec1787a09f69394c
+1	465	7166480315031525	build.ninja	ec1787a09f69394c
 43	87	7164848057889586	judge.exe	5206160954a29ef8
 0	43	7164848057469578	CMakeFiles/judge.dir/judge.c.obj	c1784bdb22cb4dc6
+0	39	7166406918156807	CMakeFiles/self-homework-1.dir/self-homework-1.c.obj	f86048227815a644
 1	44	7165646689117051	CMakeFiles/guass.dir/guass.c.obj	8ec2b68972c11dc2
 44	87	7165646689526509	guass.exe	14026e33dbb7303f
+1	46	7166407231661015	self-homework-1.exe	5e27d8e4ec7b10f4
+0	38	7166488780524682	CMakeFiles/self-homework-2.dir/self-homework-2.c.obj	fc4929b57bcdb3be
+38	81	7166488780934717	self-homework-2.exe	c192e81f06bc34bd
+1	43	7166489095660223	CMakeFiles/self-homework-2.dir/self-homework-2.c.obj	fc4929b57bcdb3be
+43	86	7166489096070193	self-homework-2.exe	c192e81f06bc34bd
+1	39	7166490818018653	CMakeFiles/self-homework-2.dir/self-homework-2.c.obj	fc4929b57bcdb3be
+40	81	7166490818399132	self-homework-2.exe	c192e81f06bc34bd
