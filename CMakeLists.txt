@@ -1,0 +1,6 @@
+cmake_minimum_required(VERSION 3.25)
+project(20230915 C)
+set(CMAKE_C_STANDARD 17)
+add_executable(hello hello.c)
+add_executable(guass guass.c)
+add_executable(judge judge.c)
