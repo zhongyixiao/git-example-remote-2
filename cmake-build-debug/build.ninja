@@ -205,6 +205,303 @@ build self-homework-2.exe: C_EXECUTABLE_LINKER__self-homework-2_Debug CMakeFiles
   TARGET_IMPLIB = libself-homework-2.dll.a
   TARGET_PDB = self-homework-2.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target volumn
+
+
+#############################################
+# Order-only phony target for volumn
+
+build cmake_object_order_depends_target_volumn: phony || CMakeFiles/volumn.dir
+
+build CMakeFiles/volumn.dir/volumn.c.obj: C_COMPILER__volumn_unscanned_Debug D$:/code/git-example-remote-2/volumn.c || cmake_object_order_depends_target_volumn
+  DEP_FILE = CMakeFiles\volumn.dir\volumn.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\volumn.dir
+  OBJECT_FILE_DIR = CMakeFiles\volumn.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target volumn
+
+
+#############################################
+# Link the executable volumn.exe
+
+build volumn.exe: C_EXECUTABLE_LINKER__volumn_Debug CMakeFiles/volumn.dir/volumn.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\volumn.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = volumn.exe
+  TARGET_IMPLIB = libvolumn.dll.a
+  TARGET_PDB = volumn.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target luogu-1000
+
+
+#############################################
+# Order-only phony target for luogu-1000
+
+build cmake_object_order_depends_target_luogu-1000: phony || CMakeFiles/luogu-1000.dir
+
+build CMakeFiles/luogu-1000.dir/luogu-1000.c.obj: C_COMPILER__luogu-1000_unscanned_Debug D$:/code/git-example-remote-2/luogu-1000.c || cmake_object_order_depends_target_luogu-1000
+  DEP_FILE = CMakeFiles\luogu-1000.dir\luogu-1000.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\luogu-1000.dir
+  OBJECT_FILE_DIR = CMakeFiles\luogu-1000.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target luogu-1000
+
+
+#############################################
+# Link the executable luogu-1000.exe
+
+build luogu-1000.exe: C_EXECUTABLE_LINKER__luogu-1000_Debug CMakeFiles/luogu-1000.dir/luogu-1000.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\luogu-1000.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = luogu-1000.exe
+  TARGET_IMPLIB = libluogu-1000.dll.a
+  TARGET_PDB = luogu-1000.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target luogu-1001
+
+
+#############################################
+# Order-only phony target for luogu-1001
+
+build cmake_object_order_depends_target_luogu-1001: phony || CMakeFiles/luogu-1001.dir
+
+build CMakeFiles/luogu-1001.dir/luogu-1001.c.obj: C_COMPILER__luogu-1001_unscanned_Debug D$:/code/git-example-remote-2/luogu-1001.c || cmake_object_order_depends_target_luogu-1001
+  DEP_FILE = CMakeFiles\luogu-1001.dir\luogu-1001.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\luogu-1001.dir
+  OBJECT_FILE_DIR = CMakeFiles\luogu-1001.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target luogu-1001
+
+
+#############################################
+# Link the executable luogu-1001.exe
+
+build luogu-1001.exe: C_EXECUTABLE_LINKER__luogu-1001_Debug CMakeFiles/luogu-1001.dir/luogu-1001.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\luogu-1001.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = luogu-1001.exe
+  TARGET_IMPLIB = libluogu-1001.dll.a
+  TARGET_PDB = luogu-1001.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target c-languang-1
+
+
+#############################################
+# Order-only phony target for c-languang-1
+
+build cmake_object_order_depends_target_c-languang-1: phony || CMakeFiles/c-languang-1.dir
+
+build CMakeFiles/c-languang-1.dir/c-languang-1.c.obj: C_COMPILER__c-languang-1_unscanned_Debug D$:/code/git-example-remote-2/c-languang-1.c || cmake_object_order_depends_target_c-languang-1
+  DEP_FILE = CMakeFiles\c-languang-1.dir\c-languang-1.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\c-languang-1.dir
+  OBJECT_FILE_DIR = CMakeFiles\c-languang-1.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target c-languang-1
+
+
+#############################################
+# Link the executable c-languang-1.exe
+
+build c-languang-1.exe: C_EXECUTABLE_LINKER__c-languang-1_Debug CMakeFiles/c-languang-1.dir/c-languang-1.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\c-languang-1.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = c-languang-1.exe
+  TARGET_IMPLIB = libc-languang-1.dll.a
+  TARGET_PDB = c-languang-1.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target c-language-2
+
+
+#############################################
+# Order-only phony target for c-language-2
+
+build cmake_object_order_depends_target_c-language-2: phony || CMakeFiles/c-language-2.dir
+
+build CMakeFiles/c-language-2.dir/c-language-2.c.obj: C_COMPILER__c-language-2_unscanned_Debug D$:/code/git-example-remote-2/c-language-2.c || cmake_object_order_depends_target_c-language-2
+  DEP_FILE = CMakeFiles\c-language-2.dir\c-language-2.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\c-language-2.dir
+  OBJECT_FILE_DIR = CMakeFiles\c-language-2.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target c-language-2
+
+
+#############################################
+# Link the executable c-language-2.exe
+
+build c-language-2.exe: C_EXECUTABLE_LINKER__c-language-2_Debug CMakeFiles/c-language-2.dir/c-language-2.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\c-language-2.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = c-language-2.exe
+  TARGET_IMPLIB = libc-language-2.dll.a
+  TARGET_PDB = c-language-2.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target self-homework-3
+
+
+#############################################
+# Order-only phony target for self-homework-3
+
+build cmake_object_order_depends_target_self-homework-3: phony || CMakeFiles/self-homework-3.dir
+
+build CMakeFiles/self-homework-3.dir/self-homework-3.c.obj: C_COMPILER__self-homework-3_unscanned_Debug D$:/code/git-example-remote-2/self-homework-3.c || cmake_object_order_depends_target_self-homework-3
+  DEP_FILE = CMakeFiles\self-homework-3.dir\self-homework-3.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\self-homework-3.dir
+  OBJECT_FILE_DIR = CMakeFiles\self-homework-3.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target self-homework-3
+
+
+#############################################
+# Link the executable self-homework-3.exe
+
+build self-homework-3.exe: C_EXECUTABLE_LINKER__self-homework-3_Debug CMakeFiles/self-homework-3.dir/self-homework-3.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\self-homework-3.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = self-homework-3.exe
+  TARGET_IMPLIB = libself-homework-3.dll.a
+  TARGET_PDB = self-homework-3.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target self-homework-4
+
+
+#############################################
+# Order-only phony target for self-homework-4
+
+build cmake_object_order_depends_target_self-homework-4: phony || CMakeFiles/self-homework-4.dir
+
+build CMakeFiles/self-homework-4.dir/self-homework-4.c.obj: C_COMPILER__self-homework-4_unscanned_Debug D$:/code/git-example-remote-2/self-homework-4.c || cmake_object_order_depends_target_self-homework-4
+  DEP_FILE = CMakeFiles\self-homework-4.dir\self-homework-4.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\self-homework-4.dir
+  OBJECT_FILE_DIR = CMakeFiles\self-homework-4.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target self-homework-4
+
+
+#############################################
+# Link the executable self-homework-4.exe
+
+build self-homework-4.exe: C_EXECUTABLE_LINKER__self-homework-4_Debug CMakeFiles/self-homework-4.dir/self-homework-4.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\self-homework-4.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = self-homework-4.exe
+  TARGET_IMPLIB = libself-homework-4.dll.a
+  TARGET_PDB = self-homework-4.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target self-homework-5
+
+
+#############################################
+# Order-only phony target for self-homework-5
+
+build cmake_object_order_depends_target_self-homework-5: phony || CMakeFiles/self-homework-5.dir
+
+build CMakeFiles/self-homework-5.dir/self-homework-5.c.obj: C_COMPILER__self-homework-5_unscanned_Debug D$:/code/git-example-remote-2/self-homework-5.c || cmake_object_order_depends_target_self-homework-5
+  DEP_FILE = CMakeFiles\self-homework-5.dir\self-homework-5.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\self-homework-5.dir
+  OBJECT_FILE_DIR = CMakeFiles\self-homework-5.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target self-homework-5
+
+
+#############################################
+# Link the executable self-homework-5.exe
+
+build self-homework-5.exe: C_EXECUTABLE_LINKER__self-homework-5_Debug CMakeFiles/self-homework-5.dir/self-homework-5.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\self-homework-5.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = self-homework-5.exe
+  TARGET_IMPLIB = libself-homework-5.dll.a
+  TARGET_PDB = self-homework-5.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target slef-homework-6
+
+
+#############################################
+# Order-only phony target for slef-homework-6
+
+build cmake_object_order_depends_target_slef-homework-6: phony || CMakeFiles/slef-homework-6.dir
+
+build CMakeFiles/slef-homework-6.dir/slef-homework-6.c.obj: C_COMPILER__slef-homework-6_unscanned_Debug D$:/code/git-example-remote-2/slef-homework-6.c || cmake_object_order_depends_target_slef-homework-6
+  DEP_FILE = CMakeFiles\slef-homework-6.dir\slef-homework-6.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\slef-homework-6.dir
+  OBJECT_FILE_DIR = CMakeFiles\slef-homework-6.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target slef-homework-6
+
+
+#############################################
+# Link the executable slef-homework-6.exe
+
+build slef-homework-6.exe: C_EXECUTABLE_LINKER__slef-homework-6_Debug CMakeFiles/slef-homework-6.dir/slef-homework-6.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\slef-homework-6.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = slef-homework-6.exe
+  TARGET_IMPLIB = libslef-homework-6.dll.a
+  TARGET_PDB = slef-homework-6.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -231,15 +528,33 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 # =============================================================================
 # Target aliases.
 
+build c-language-2: phony c-language-2.exe
+
+build c-languang-1: phony c-languang-1.exe
+
 build guass: phony guass.exe
 
 build hello: phony hello.exe
 
 build judge: phony judge.exe
 
+build luogu-1000: phony luogu-1000.exe
+
+build luogu-1001: phony luogu-1001.exe
+
 build self-homework-1: phony self-homework-1.exe
 
 build self-homework-2: phony self-homework-2.exe
+
+build self-homework-3: phony self-homework-3.exe
+
+build self-homework-4: phony self-homework-4.exe
+
+build self-homework-5: phony self-homework-5.exe
+
+build slef-homework-6: phony slef-homework-6.exe
+
+build volumn: phony volumn.exe
 
 # =============================================================================
 # Folder targets.
@@ -249,7 +564,7 @@ build self-homework-2: phony self-homework-2.exe
 #############################################
 # Folder: D:/code/git-example-remote-2/cmake-build-debug
 
-build all: phony hello.exe guass.exe judge.exe self-homework-1.exe self-homework-2.exe
+build all: phony hello.exe guass.exe judge.exe self-homework-1.exe self-homework-2.exe volumn.exe luogu-1000.exe luogu-1001.exe c-languang-1.exe c-language-2.exe self-homework-3.exe self-homework-4.exe self-homework-5.exe slef-homework-6.exe
 
 # =============================================================================
 # Built-in targets
