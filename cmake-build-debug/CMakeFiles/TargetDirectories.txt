@@ -2,7 +2,8 @@ D:/code/git-example-remote-2/cmake-build-debug/CMakeFiles/hello.dir
 D:/code/git-example-remote-2/cmake-build-debug/CMakeFiles/guass.dir
 D:/code/git-example-remote-2/cmake-build-debug/CMakeFiles/judge.dir
 D:/code/git-example-remote-2/cmake-build-debug/CMakeFiles/self-homework-1.dir
-D:/code/git-example-remote-2/cmake-build-debug/CMakeFiles/self-homework-2.dir
+D:/code/git-example-remote-2/cmake-build-debug/CMakeFiles/self-homework-2-1.dir
+D:/code/git-example-remote-2/cmake-build-debug/CMakeFiles/self-homework-2-2.dir
 D:/code/git-example-remote-2/cmake-build-debug/CMakeFiles/volumn.dir
 D:/code/git-example-remote-2/cmake-build-debug/CMakeFiles/luogu-1000.dir
 D:/code/git-example-remote-2/cmake-build-debug/CMakeFiles/luogu-1001.dir
@@ -12,5 +13,10 @@ D:/code/git-example-remote-2/cmake-build-debug/CMakeFiles/self-homework-3.dir
 D:/code/git-example-remote-2/cmake-build-debug/CMakeFiles/self-homework-4.dir
 D:/code/git-example-remote-2/cmake-build-debug/CMakeFiles/self-homework-5.dir
 D:/code/git-example-remote-2/cmake-build-debug/CMakeFiles/slef-homework-6.dir
+D:/code/git-example-remote-2/cmake-build-debug/CMakeFiles/self-homework-7.dir
+D:/code/git-example-remote-2/cmake-build-debug/CMakeFiles/self-homework-8-1.dir
+D:/code/git-example-remote-2/cmake-build-debug/CMakeFiles/self-homework-8-2.dir
+D:/code/git-example-remote-2/cmake-build-debug/CMakeFiles/self-homework-9.dir
+D:/code/git-example-remote-2/cmake-build-debug/CMakeFiles/self-homework-10.dir
 D:/code/git-example-remote-2/cmake-build-debug/CMakeFiles/edit_cache.dir
 D:/code/git-example-remote-2/cmake-build-debug/CMakeFiles/rebuild_cache.dir
