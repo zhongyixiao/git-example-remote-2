@@ -1,5 +1,3 @@
-D:/code/git-example-remote-2/cmake-build-debug/CMakeFiles/hello.dir
-D:/code/git-example-remote-2/cmake-build-debug/CMakeFiles/guass.dir
 D:/code/git-example-remote-2/cmake-build-debug/CMakeFiles/judge.dir
 D:/code/git-example-remote-2/cmake-build-debug/CMakeFiles/self-homework-1.dir
 D:/code/git-example-remote-2/cmake-build-debug/CMakeFiles/self-homework-2-1.dir
@@ -20,3 +18,20 @@ D:/code/git-example-remote-2/cmake-build-debug/CMakeFiles/self-homework-9.dir
 D:/code/git-example-remote-2/cmake-build-debug/CMakeFiles/self-homework-10.dir
 D:/code/git-example-remote-2/cmake-build-debug/CMakeFiles/edit_cache.dir
 D:/code/git-example-remote-2/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+D:/code/git-example-remote-2/cmake-build-debug/0-intro/CMakeFiles/hello.dir
+D:/code/git-example-remote-2/cmake-build-debug/0-intro/CMakeFiles/guass.dir
+D:/code/git-example-remote-2/cmake-build-debug/0-intro/CMakeFiles/edit_cache.dir
+D:/code/git-example-remote-2/cmake-build-debug/0-intro/CMakeFiles/rebuild_cache.dir
+D:/code/git-example-remote-2/cmake-build-debug/1-types-io/CMakeFiles/cycle.dir
+D:/code/git-example-remote-2/cmake-build-debug/1-types-io/CMakeFiles/sphere.dir
+D:/code/git-example-remote-2/cmake-build-debug/1-types-io/CMakeFiles/mol.dir
+D:/code/git-example-remote-2/cmake-build-debug/1-types-io/CMakeFiles/admin.dir
+D:/code/git-example-remote-2/cmake-build-debug/1-types-io/CMakeFiles/ASCII.dir
+D:/code/git-example-remote-2/cmake-build-debug/1-types-io/CMakeFiles/change.dir
+D:/code/git-example-remote-2/cmake-build-debug/1-types-io/CMakeFiles/PI.dir
+D:/code/git-example-remote-2/cmake-build-debug/1-types-io/CMakeFiles/time.dir
+D:/code/git-example-remote-2/cmake-build-debug/1-types-io/CMakeFiles/julian.dir
+D:/code/git-example-remote-2/cmake-build-debug/1-types-io/CMakeFiles/gravity.dir
+D:/code/git-example-remote-2/cmake-build-debug/1-types-io/CMakeFiles/equation.dir
+D:/code/git-example-remote-2/cmake-build-debug/1-types-io/CMakeFiles/edit_cache.dir
+D:/code/git-example-remote-2/cmake-build-debug/1-types-io/CMakeFiles/rebuild_cache.dir

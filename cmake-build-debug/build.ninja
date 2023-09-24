@@ -41,72 +41,6 @@ include CMakeFiles/rules.ninja
 
 cmake_ninja_workdir = D$:/code/git-example-remote-2/cmake-build-debug/
 # =============================================================================
-# Object build statements for EXECUTABLE target hello
-
-
-#############################################
-# Order-only phony target for hello
-
-build cmake_object_order_depends_target_hello: phony || CMakeFiles/hello.dir
-
-build CMakeFiles/hello.dir/hello.c.obj: C_COMPILER__hello_unscanned_Debug D$:/code/git-example-remote-2/hello.c || cmake_object_order_depends_target_hello
-  DEP_FILE = CMakeFiles\hello.dir\hello.c.obj.d
-  FLAGS = -g -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles\hello.dir
-  OBJECT_FILE_DIR = CMakeFiles\hello.dir
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target hello
-
-
-#############################################
-# Link the executable hello.exe
-
-build hello.exe: C_EXECUTABLE_LINKER__hello_Debug CMakeFiles/hello.dir/hello.c.obj
-  FLAGS = -g
-  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\hello.dir
-  POST_BUILD = cd .
-  PRE_LINK = cd .
-  TARGET_FILE = hello.exe
-  TARGET_IMPLIB = libhello.dll.a
-  TARGET_PDB = hello.exe.dbg
-
-# =============================================================================
-# Object build statements for EXECUTABLE target guass
-
-
-#############################################
-# Order-only phony target for guass
-
-build cmake_object_order_depends_target_guass: phony || CMakeFiles/guass.dir
-
-build CMakeFiles/guass.dir/guass.c.obj: C_COMPILER__guass_unscanned_Debug D$:/code/git-example-remote-2/guass.c || cmake_object_order_depends_target_guass
-  DEP_FILE = CMakeFiles\guass.dir\guass.c.obj.d
-  FLAGS = -g -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles\guass.dir
-  OBJECT_FILE_DIR = CMakeFiles\guass.dir
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target guass
-
-
-#############################################
-# Link the executable guass.exe
-
-build guass.exe: C_EXECUTABLE_LINKER__guass_Debug CMakeFiles/guass.dir/guass.c.obj
-  FLAGS = -g
-  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\guass.dir
-  POST_BUILD = cd .
-  PRE_LINK = cd .
-  TARGET_FILE = guass.exe
-  TARGET_IMPLIB = libguass.dll.a
-  TARGET_PDB = guass.exe.dbg
-
-# =============================================================================
 # Object build statements for EXECUTABLE target judge
 
 
@@ -724,21 +658,546 @@ build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
 build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 
 # =============================================================================
+# Write statements declared in CMakeLists.txt:
+# D:/code/git-example-remote-2/CMakeLists.txt
+# =============================================================================
+
+# =============================================================================
+# Object build statements for EXECUTABLE target hello
+
+
+#############################################
+# Order-only phony target for hello
+
+build cmake_object_order_depends_target_hello: phony || 0-intro/CMakeFiles/hello.dir
+
+build 0-intro/CMakeFiles/hello.dir/hello.c.obj: C_COMPILER__hello_unscanned_Debug D$:/code/git-example-remote-2/0-intro/hello.c || cmake_object_order_depends_target_hello
+  DEP_FILE = 0-intro\CMakeFiles\hello.dir\hello.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = 0-intro\CMakeFiles\hello.dir
+  OBJECT_FILE_DIR = 0-intro\CMakeFiles\hello.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target hello
+
+
+#############################################
+# Link the executable 0-intro\hello.exe
+
+build 0-intro/hello.exe: C_EXECUTABLE_LINKER__hello_Debug 0-intro/CMakeFiles/hello.dir/hello.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = 0-intro\CMakeFiles\hello.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 0-intro\hello.exe
+  TARGET_IMPLIB = 0-intro\libhello.dll.a
+  TARGET_PDB = hello.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target guass
+
+
+#############################################
+# Order-only phony target for guass
+
+build cmake_object_order_depends_target_guass: phony || 0-intro/CMakeFiles/guass.dir
+
+build 0-intro/CMakeFiles/guass.dir/guass.c.obj: C_COMPILER__guass_unscanned_Debug D$:/code/git-example-remote-2/0-intro/guass.c || cmake_object_order_depends_target_guass
+  DEP_FILE = 0-intro\CMakeFiles\guass.dir\guass.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = 0-intro\CMakeFiles\guass.dir
+  OBJECT_FILE_DIR = 0-intro\CMakeFiles\guass.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target guass
+
+
+#############################################
+# Link the executable 0-intro\guass.exe
+
+build 0-intro/guass.exe: C_EXECUTABLE_LINKER__guass_Debug 0-intro/CMakeFiles/guass.dir/guass.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = 0-intro\CMakeFiles\guass.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 0-intro\guass.exe
+  TARGET_IMPLIB = 0-intro\libguass.dll.a
+  TARGET_PDB = guass.exe.dbg
+
+
+#############################################
+# Utility command for edit_cache
+
+build 0-intro/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = cmd.exe /C "cd /D D:\code\git-example-remote-2\cmake-build-debug\0-intro && E:\toolbox\CLion\bin\cmake\win\x64\bin\cmake.exe -E echo "No interactive CMake dialog available.""
+  DESC = No interactive CMake dialog available...
+  restat = 1
+
+build 0-intro/edit_cache: phony 0-intro/CMakeFiles/edit_cache.util
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build 0-intro/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = cmd.exe /C "cd /D D:\code\git-example-remote-2\cmake-build-debug\0-intro && E:\toolbox\CLion\bin\cmake\win\x64\bin\cmake.exe --regenerate-during-build -SD:\code\git-example-remote-2 -BD:\code\git-example-remote-2\cmake-build-debug"
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build 0-intro/rebuild_cache: phony 0-intro/CMakeFiles/rebuild_cache.util
+
+# =============================================================================
+# Write statements declared in CMakeLists.txt:
+# D:/code/git-example-remote-2/CMakeLists.txt
+# =============================================================================
+
+# =============================================================================
+# Object build statements for EXECUTABLE target cycle
+
+
+#############################################
+# Order-only phony target for cycle
+
+build cmake_object_order_depends_target_cycle: phony || 1-types-io/CMakeFiles/cycle.dir
+
+build 1-types-io/CMakeFiles/cycle.dir/cycle.c.obj: C_COMPILER__cycle_unscanned_Debug D$:/code/git-example-remote-2/1-types-io/cycle.c || cmake_object_order_depends_target_cycle
+  DEP_FILE = 1-types-io\CMakeFiles\cycle.dir\cycle.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = 1-types-io\CMakeFiles\cycle.dir
+  OBJECT_FILE_DIR = 1-types-io\CMakeFiles\cycle.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target cycle
+
+
+#############################################
+# Link the executable 1-types-io\cycle.exe
+
+build 1-types-io/cycle.exe: C_EXECUTABLE_LINKER__cycle_Debug 1-types-io/CMakeFiles/cycle.dir/cycle.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = 1-types-io\CMakeFiles\cycle.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 1-types-io\cycle.exe
+  TARGET_IMPLIB = 1-types-io\libcycle.dll.a
+  TARGET_PDB = cycle.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target sphere
+
+
+#############################################
+# Order-only phony target for sphere
+
+build cmake_object_order_depends_target_sphere: phony || 1-types-io/CMakeFiles/sphere.dir
+
+build 1-types-io/CMakeFiles/sphere.dir/sphere.c.obj: C_COMPILER__sphere_unscanned_Debug D$:/code/git-example-remote-2/1-types-io/sphere.c || cmake_object_order_depends_target_sphere
+  DEP_FILE = 1-types-io\CMakeFiles\sphere.dir\sphere.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = 1-types-io\CMakeFiles\sphere.dir
+  OBJECT_FILE_DIR = 1-types-io\CMakeFiles\sphere.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target sphere
+
+
+#############################################
+# Link the executable 1-types-io\sphere.exe
+
+build 1-types-io/sphere.exe: C_EXECUTABLE_LINKER__sphere_Debug 1-types-io/CMakeFiles/sphere.dir/sphere.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = 1-types-io\CMakeFiles\sphere.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 1-types-io\sphere.exe
+  TARGET_IMPLIB = 1-types-io\libsphere.dll.a
+  TARGET_PDB = sphere.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target mol
+
+
+#############################################
+# Order-only phony target for mol
+
+build cmake_object_order_depends_target_mol: phony || 1-types-io/CMakeFiles/mol.dir
+
+build 1-types-io/CMakeFiles/mol.dir/mol.c.obj: C_COMPILER__mol_unscanned_Debug D$:/code/git-example-remote-2/1-types-io/mol.c || cmake_object_order_depends_target_mol
+  DEP_FILE = 1-types-io\CMakeFiles\mol.dir\mol.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = 1-types-io\CMakeFiles\mol.dir
+  OBJECT_FILE_DIR = 1-types-io\CMakeFiles\mol.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target mol
+
+
+#############################################
+# Link the executable 1-types-io\mol.exe
+
+build 1-types-io/mol.exe: C_EXECUTABLE_LINKER__mol_Debug 1-types-io/CMakeFiles/mol.dir/mol.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = 1-types-io\CMakeFiles\mol.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 1-types-io\mol.exe
+  TARGET_IMPLIB = 1-types-io\libmol.dll.a
+  TARGET_PDB = mol.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target admin
+
+
+#############################################
+# Order-only phony target for admin
+
+build cmake_object_order_depends_target_admin: phony || 1-types-io/CMakeFiles/admin.dir
+
+build 1-types-io/CMakeFiles/admin.dir/admin.c.obj: C_COMPILER__admin_unscanned_Debug D$:/code/git-example-remote-2/1-types-io/admin.c || cmake_object_order_depends_target_admin
+  DEP_FILE = 1-types-io\CMakeFiles\admin.dir\admin.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = 1-types-io\CMakeFiles\admin.dir
+  OBJECT_FILE_DIR = 1-types-io\CMakeFiles\admin.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target admin
+
+
+#############################################
+# Link the executable 1-types-io\admin.exe
+
+build 1-types-io/admin.exe: C_EXECUTABLE_LINKER__admin_Debug 1-types-io/CMakeFiles/admin.dir/admin.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lm  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = 1-types-io\CMakeFiles\admin.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 1-types-io\admin.exe
+  TARGET_IMPLIB = 1-types-io\libadmin.dll.a
+  TARGET_PDB = admin.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target ASCII
+
+
+#############################################
+# Order-only phony target for ASCII
+
+build cmake_object_order_depends_target_ASCII: phony || 1-types-io/CMakeFiles/ASCII.dir
+
+build 1-types-io/CMakeFiles/ASCII.dir/ASCII.c.obj: C_COMPILER__ASCII_unscanned_Debug D$:/code/git-example-remote-2/1-types-io/ASCII.c || cmake_object_order_depends_target_ASCII
+  DEP_FILE = 1-types-io\CMakeFiles\ASCII.dir\ASCII.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = 1-types-io\CMakeFiles\ASCII.dir
+  OBJECT_FILE_DIR = 1-types-io\CMakeFiles\ASCII.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target ASCII
+
+
+#############################################
+# Link the executable 1-types-io\ASCII.exe
+
+build 1-types-io/ASCII.exe: C_EXECUTABLE_LINKER__ASCII_Debug 1-types-io/CMakeFiles/ASCII.dir/ASCII.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = 1-types-io\CMakeFiles\ASCII.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 1-types-io\ASCII.exe
+  TARGET_IMPLIB = 1-types-io\libASCII.dll.a
+  TARGET_PDB = ASCII.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target change
+
+
+#############################################
+# Order-only phony target for change
+
+build cmake_object_order_depends_target_change: phony || 1-types-io/CMakeFiles/change.dir
+
+build 1-types-io/CMakeFiles/change.dir/change.c.obj: C_COMPILER__change_unscanned_Debug D$:/code/git-example-remote-2/1-types-io/change.c || cmake_object_order_depends_target_change
+  DEP_FILE = 1-types-io\CMakeFiles\change.dir\change.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = 1-types-io\CMakeFiles\change.dir
+  OBJECT_FILE_DIR = 1-types-io\CMakeFiles\change.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target change
+
+
+#############################################
+# Link the executable 1-types-io\change.exe
+
+build 1-types-io/change.exe: C_EXECUTABLE_LINKER__change_Debug 1-types-io/CMakeFiles/change.dir/change.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = 1-types-io\CMakeFiles\change.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 1-types-io\change.exe
+  TARGET_IMPLIB = 1-types-io\libchange.dll.a
+  TARGET_PDB = change.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target PI
+
+
+#############################################
+# Order-only phony target for PI
+
+build cmake_object_order_depends_target_PI: phony || 1-types-io/CMakeFiles/PI.dir
+
+build 1-types-io/CMakeFiles/PI.dir/PI.c.obj: C_COMPILER__PI_unscanned_Debug D$:/code/git-example-remote-2/1-types-io/PI.c || cmake_object_order_depends_target_PI
+  DEP_FILE = 1-types-io\CMakeFiles\PI.dir\PI.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = 1-types-io\CMakeFiles\PI.dir
+  OBJECT_FILE_DIR = 1-types-io\CMakeFiles\PI.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target PI
+
+
+#############################################
+# Link the executable 1-types-io\PI.exe
+
+build 1-types-io/PI.exe: C_EXECUTABLE_LINKER__PI_Debug 1-types-io/CMakeFiles/PI.dir/PI.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = 1-types-io\CMakeFiles\PI.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 1-types-io\PI.exe
+  TARGET_IMPLIB = 1-types-io\libPI.dll.a
+  TARGET_PDB = PI.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target time
+
+
+#############################################
+# Order-only phony target for time
+
+build cmake_object_order_depends_target_time: phony || 1-types-io/CMakeFiles/time.dir
+
+build 1-types-io/CMakeFiles/time.dir/time.c.obj: C_COMPILER__time_unscanned_Debug D$:/code/git-example-remote-2/1-types-io/time.c || cmake_object_order_depends_target_time
+  DEP_FILE = 1-types-io\CMakeFiles\time.dir\time.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = 1-types-io\CMakeFiles\time.dir
+  OBJECT_FILE_DIR = 1-types-io\CMakeFiles\time.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target time
+
+
+#############################################
+# Link the executable 1-types-io\time.exe
+
+build 1-types-io/time.exe: C_EXECUTABLE_LINKER__time_Debug 1-types-io/CMakeFiles/time.dir/time.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = 1-types-io\CMakeFiles\time.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 1-types-io\time.exe
+  TARGET_IMPLIB = 1-types-io\libtime.dll.a
+  TARGET_PDB = time.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target julian
+
+
+#############################################
+# Order-only phony target for julian
+
+build cmake_object_order_depends_target_julian: phony || 1-types-io/CMakeFiles/julian.dir
+
+build 1-types-io/CMakeFiles/julian.dir/julian.c.obj: C_COMPILER__julian_unscanned_Debug D$:/code/git-example-remote-2/1-types-io/julian.c || cmake_object_order_depends_target_julian
+  DEP_FILE = 1-types-io\CMakeFiles\julian.dir\julian.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = 1-types-io\CMakeFiles\julian.dir
+  OBJECT_FILE_DIR = 1-types-io\CMakeFiles\julian.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target julian
+
+
+#############################################
+# Link the executable 1-types-io\julian.exe
+
+build 1-types-io/julian.exe: C_EXECUTABLE_LINKER__julian_Debug 1-types-io/CMakeFiles/julian.dir/julian.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = 1-types-io\CMakeFiles\julian.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 1-types-io\julian.exe
+  TARGET_IMPLIB = 1-types-io\libjulian.dll.a
+  TARGET_PDB = julian.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target gravity
+
+
+#############################################
+# Order-only phony target for gravity
+
+build cmake_object_order_depends_target_gravity: phony || 1-types-io/CMakeFiles/gravity.dir
+
+build 1-types-io/CMakeFiles/gravity.dir/gravity.c.obj: C_COMPILER__gravity_unscanned_Debug D$:/code/git-example-remote-2/1-types-io/gravity.c || cmake_object_order_depends_target_gravity
+  DEP_FILE = 1-types-io\CMakeFiles\gravity.dir\gravity.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = 1-types-io\CMakeFiles\gravity.dir
+  OBJECT_FILE_DIR = 1-types-io\CMakeFiles\gravity.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target gravity
+
+
+#############################################
+# Link the executable 1-types-io\gravity.exe
+
+build 1-types-io/gravity.exe: C_EXECUTABLE_LINKER__gravity_Debug 1-types-io/CMakeFiles/gravity.dir/gravity.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = 1-types-io\CMakeFiles\gravity.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 1-types-io\gravity.exe
+  TARGET_IMPLIB = 1-types-io\libgravity.dll.a
+  TARGET_PDB = gravity.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target equation
+
+
+#############################################
+# Order-only phony target for equation
+
+build cmake_object_order_depends_target_equation: phony || 1-types-io/CMakeFiles/equation.dir
+
+build 1-types-io/CMakeFiles/equation.dir/equation.c.obj: C_COMPILER__equation_unscanned_Debug D$:/code/git-example-remote-2/1-types-io/equation.c || cmake_object_order_depends_target_equation
+  DEP_FILE = 1-types-io\CMakeFiles\equation.dir\equation.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = 1-types-io\CMakeFiles\equation.dir
+  OBJECT_FILE_DIR = 1-types-io\CMakeFiles\equation.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target equation
+
+
+#############################################
+# Link the executable 1-types-io\equation.exe
+
+build 1-types-io/equation.exe: C_EXECUTABLE_LINKER__equation_Debug 1-types-io/CMakeFiles/equation.dir/equation.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = 1-types-io\CMakeFiles\equation.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 1-types-io\equation.exe
+  TARGET_IMPLIB = 1-types-io\libequation.dll.a
+  TARGET_PDB = equation.exe.dbg
+
+
+#############################################
+# Utility command for edit_cache
+
+build 1-types-io/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = cmd.exe /C "cd /D D:\code\git-example-remote-2\cmake-build-debug\1-types-io && E:\toolbox\CLion\bin\cmake\win\x64\bin\cmake.exe -E echo "No interactive CMake dialog available.""
+  DESC = No interactive CMake dialog available...
+  restat = 1
+
+build 1-types-io/edit_cache: phony 1-types-io/CMakeFiles/edit_cache.util
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build 1-types-io/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = cmd.exe /C "cd /D D:\code\git-example-remote-2\cmake-build-debug\1-types-io && E:\toolbox\CLion\bin\cmake\win\x64\bin\cmake.exe --regenerate-during-build -SD:\code\git-example-remote-2 -BD:\code\git-example-remote-2\cmake-build-debug"
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build 1-types-io/rebuild_cache: phony 1-types-io/CMakeFiles/rebuild_cache.util
+
+# =============================================================================
 # Target aliases.
+
+build ASCII: phony 1-types-io/ASCII.exe
+
+build ASCII.exe: phony 1-types-io/ASCII.exe
+
+build PI: phony 1-types-io/PI.exe
+
+build PI.exe: phony 1-types-io/PI.exe
+
+build admin: phony 1-types-io/admin.exe
+
+build admin.exe: phony 1-types-io/admin.exe
 
 build c-language-2: phony c-language-2.exe
 
 build c-languang-1: phony c-languang-1.exe
 
-build guass: phony guass.exe
+build change: phony 1-types-io/change.exe
 
-build hello: phony hello.exe
+build change.exe: phony 1-types-io/change.exe
+
+build cycle: phony 1-types-io/cycle.exe
+
+build cycle.exe: phony 1-types-io/cycle.exe
+
+build equation: phony 1-types-io/equation.exe
+
+build equation.exe: phony 1-types-io/equation.exe
+
+build gravity: phony 1-types-io/gravity.exe
+
+build gravity.exe: phony 1-types-io/gravity.exe
+
+build guass: phony 0-intro/guass.exe
+
+build guass.exe: phony 0-intro/guass.exe
+
+build hello: phony 0-intro/hello.exe
+
+build hello.exe: phony 0-intro/hello.exe
 
 build judge: phony judge.exe
+
+build julian: phony 1-types-io/julian.exe
+
+build julian.exe: phony 1-types-io/julian.exe
 
 build luogu-1000: phony luogu-1000.exe
 
 build luogu-1001: phony luogu-1001.exe
+
+build mol: phony 1-types-io/mol.exe
+
+build mol.exe: phony 1-types-io/mol.exe
 
 build self-homework-1: phony self-homework-1.exe
 
@@ -764,6 +1223,14 @@ build self-homework-9: phony self-homework-9.exe
 
 build slef-homework-6: phony slef-homework-6.exe
 
+build sphere: phony 1-types-io/sphere.exe
+
+build sphere.exe: phony 1-types-io/sphere.exe
+
+build time: phony 1-types-io/time.exe
+
+build time.exe: phony 1-types-io/time.exe
+
 build volumn: phony volumn.exe
 
 # =============================================================================
@@ -774,7 +1241,21 @@ build volumn: phony volumn.exe
 #############################################
 # Folder: D:/code/git-example-remote-2/cmake-build-debug
 
-build all: phony hello.exe guass.exe judge.exe self-homework-1.exe self-homework-2-1.exe self-homework-2-2.exe volumn.exe luogu-1000.exe luogu-1001.exe c-languang-1.exe c-language-2.exe self-homework-3.exe self-homework-4.exe self-homework-5.exe slef-homework-6.exe self-homework-7.exe self-homework-8-1.exe self-homework-8-2.exe self-homework-9.exe self-homework-10.exe
+build all: phony judge.exe self-homework-1.exe self-homework-2-1.exe self-homework-2-2.exe volumn.exe luogu-1000.exe luogu-1001.exe c-languang-1.exe c-language-2.exe self-homework-3.exe self-homework-4.exe self-homework-5.exe slef-homework-6.exe self-homework-7.exe self-homework-8-1.exe self-homework-8-2.exe self-homework-9.exe self-homework-10.exe 0-intro/all 1-types-io/all
+
+# =============================================================================
+
+#############################################
+# Folder: D:/code/git-example-remote-2/cmake-build-debug/0-intro
+
+build 0-intro/all: phony 0-intro/hello.exe 0-intro/guass.exe
+
+# =============================================================================
+
+#############################################
+# Folder: D:/code/git-example-remote-2/cmake-build-debug/1-types-io
+
+build 1-types-io/all: phony 1-types-io/cycle.exe 1-types-io/sphere.exe 1-types-io/mol.exe 1-types-io/admin.exe 1-types-io/ASCII.exe 1-types-io/change.exe 1-types-io/PI.exe 1-types-io/time.exe 1-types-io/julian.exe 1-types-io/gravity.exe 1-types-io/equation.exe
 
 # =============================================================================
 # Built-in targets
@@ -783,14 +1264,14 @@ build all: phony hello.exe guass.exe judge.exe self-homework-1.exe self-homework
 #############################################
 # Re-run CMake if any of its inputs changed.
 
-build build.ninja: RERUN_CMAKE | CMakeCache.txt CMakeFiles/3.26.4/CMakeCCompiler.cmake CMakeFiles/3.26.4/CMakeRCCompiler.cmake CMakeFiles/3.26.4/CMakeSystem.cmake D$:/code/git-example-remote-2/CMakeLists.txt E$:/toolbox/CLion/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeCInformation.cmake E$:/toolbox/CLion/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeCommonLanguageInclude.cmake E$:/toolbox/CLion/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeGenericSystem.cmake E$:/toolbox/CLion/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeInitializeConfigs.cmake E$:/toolbox/CLion/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeLanguageInformation.cmake E$:/toolbox/CLion/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeRCInformation.cmake E$:/toolbox/CLion/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeSystemSpecificInformation.cmake E$:/toolbox/CLion/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeSystemSpecificInitialize.cmake E$:/toolbox/CLion/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/CMakeCommonCompilerMacros.cmake E$:/toolbox/CLion/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/GNU-C.cmake E$:/toolbox/CLion/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/GNU.cmake E$:/toolbox/CLion/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/Windows-GNU-C-ABI.cmake E$:/toolbox/CLion/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/Windows-GNU-C.cmake E$:/toolbox/CLion/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/Windows-GNU.cmake E$:/toolbox/CLion/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/Windows-windres.cmake E$:/toolbox/CLion/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/Windows.cmake E$:/toolbox/CLion/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/WindowsPaths.cmake
+build build.ninja: RERUN_CMAKE | CMakeCache.txt CMakeFiles/3.26.4/CMakeCCompiler.cmake CMakeFiles/3.26.4/CMakeRCCompiler.cmake CMakeFiles/3.26.4/CMakeSystem.cmake D$:/code/git-example-remote-2/0-intro/CMakeLists.txt D$:/code/git-example-remote-2/1-types-io/CMakeLists.txt D$:/code/git-example-remote-2/CMakeLists.txt E$:/toolbox/CLion/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeCInformation.cmake E$:/toolbox/CLion/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeCommonLanguageInclude.cmake E$:/toolbox/CLion/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeGenericSystem.cmake E$:/toolbox/CLion/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeInitializeConfigs.cmake E$:/toolbox/CLion/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeLanguageInformation.cmake E$:/toolbox/CLion/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeRCInformation.cmake E$:/toolbox/CLion/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeSystemSpecificInformation.cmake E$:/toolbox/CLion/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeSystemSpecificInitialize.cmake E$:/toolbox/CLion/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/CMakeCommonCompilerMacros.cmake E$:/toolbox/CLion/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/GNU-C.cmake E$:/toolbox/CLion/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/GNU.cmake E$:/toolbox/CLion/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/Windows-GNU-C-ABI.cmake E$:/toolbox/CLion/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/Windows-GNU-C.cmake E$:/toolbox/CLion/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/Windows-GNU.cmake E$:/toolbox/CLion/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/Windows-windres.cmake E$:/toolbox/CLion/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/Windows.cmake E$:/toolbox/CLion/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/WindowsPaths.cmake
   pool = console
 
 
 #############################################
 # A missing CMake input file is not an error.
 
-build CMakeCache.txt CMakeFiles/3.26.4/CMakeCCompiler.cmake CMakeFiles/3.26.4/CMakeRCCompiler.cmake CMakeFiles/3.26.4/CMakeSystem.cmake D$:/code/git-example-remote-2/CMakeLists.txt E$:/toolbox/CLion/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeCInformation.cmake E$:/toolbox/CLion/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeCommonLanguageInclude.cmake E$:/toolbox/CLion/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeGenericSystem.cmake E$:/toolbox/CLion/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeInitializeConfigs.cmake E$:/toolbox/CLion/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeLanguageInformation.cmake E$:/toolbox/CLion/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeRCInformation.cmake E$:/toolbox/CLion/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeSystemSpecificInformation.cmake E$:/toolbox/CLion/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeSystemSpecificInitialize.cmake E$:/toolbox/CLion/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/CMakeCommonCompilerMacros.cmake E$:/toolbox/CLion/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/GNU-C.cmake E$:/toolbox/CLion/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/GNU.cmake E$:/toolbox/CLion/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/Windows-GNU-C-ABI.cmake E$:/toolbox/CLion/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/Windows-GNU-C.cmake E$:/toolbox/CLion/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/Windows-GNU.cmake E$:/toolbox/CLion/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/Windows-windres.cmake E$:/toolbox/CLion/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/Windows.cmake E$:/toolbox/CLion/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/WindowsPaths.cmake: phony
+build CMakeCache.txt CMakeFiles/3.26.4/CMakeCCompiler.cmake CMakeFiles/3.26.4/CMakeRCCompiler.cmake CMakeFiles/3.26.4/CMakeSystem.cmake D$:/code/git-example-remote-2/0-intro/CMakeLists.txt D$:/code/git-example-remote-2/1-types-io/CMakeLists.txt D$:/code/git-example-remote-2/CMakeLists.txt E$:/toolbox/CLion/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeCInformation.cmake E$:/toolbox/CLion/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeCommonLanguageInclude.cmake E$:/toolbox/CLion/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeGenericSystem.cmake E$:/toolbox/CLion/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeInitializeConfigs.cmake E$:/toolbox/CLion/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeLanguageInformation.cmake E$:/toolbox/CLion/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeRCInformation.cmake E$:/toolbox/CLion/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeSystemSpecificInformation.cmake E$:/toolbox/CLion/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeSystemSpecificInitialize.cmake E$:/toolbox/CLion/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/CMakeCommonCompilerMacros.cmake E$:/toolbox/CLion/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/GNU-C.cmake E$:/toolbox/CLion/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/GNU.cmake E$:/toolbox/CLion/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/Windows-GNU-C-ABI.cmake E$:/toolbox/CLion/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/Windows-GNU-C.cmake E$:/toolbox/CLion/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/Windows-GNU.cmake E$:/toolbox/CLion/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/Windows-windres.cmake E$:/toolbox/CLion/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/Windows.cmake E$:/toolbox/CLion/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/WindowsPaths.cmake: phony
 
 
 #############################################
