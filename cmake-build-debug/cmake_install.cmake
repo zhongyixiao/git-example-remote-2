@@ -47,6 +47,26 @@ if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   include("D:/code/git-example-remote-2/cmake-build-debug/1-types-io/cmake_install.cmake")
 endif()
 
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("D:/code/git-example-remote-2/cmake-build-debug/self-homework/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("D:/code/git-example-remote-2/cmake-build-debug/luogu/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("D:/code/git-example-remote-2/cmake-build-debug/book-homework/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("D:/code/git-example-remote-2/cmake-build-debug/c-language/cmake_install.cmake")
+endif()
+
 if(CMAKE_INSTALL_COMPONENT)
   set(CMAKE_INSTALL_MANIFEST "install_manifest_${CMAKE_INSTALL_COMPONENT}.txt")
 else()
